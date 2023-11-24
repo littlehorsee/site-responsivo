@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;800&family=Ephesis&family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Josefin+Sans:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-size: 16px;
+  }
+  
+  .headerGeral{
+
+    display: flex;
+    flex-direction: column ;
+    background-color: rgba(186, 68, 0, 0.881);
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    font-family: 'Ephesis', cursive;
+    color: aliceblue;
+    padding: 2vh;
+  }
+
+  .tituloHeader{
+    padding: 5vh;
+  }
+
+  .footerGeral{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(186, 68, 0, 0.881);
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+   
+    color: aliceblue;
+    
+  }
+  .menuHeader{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color:aliceblue;
+    align-items: center;
+  }
+  .menuHeader a{
+    
+    text-decoration: none;
+    color: white;
+  }
+  .tituloHeader{
+    text-align: center;
+  }
+
+
+.footerGeral{
+  font-size: 120%;
+  height: 5vh;
+  margin-top: 2vh;
+  padding: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}  
+
+
+  
+
+  /*Vini*/
+
+  .imgClimaDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vw;
+  }
+
+  .tudoIndex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  .fotoPrincipalDiv{
+    text-align: center;
+    width: 100%;
+    margin-right: 3vw;
+    margin-top: 5vh;
+  }
+
+  .fotoPrincipal{
+    width: 45vw;
+    border-radius: 1vw;
+    
+  }
+
+  .textoIndex{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .textPrincipal{
+    font-size: 5vw;    
+  }
+  
+  .descricaoDiv{
+    text-align: center;
+  }
+
+  .descricao{
+    font-size:1.5vw;
+    margin-top:1vw;
+    font-family: 'Catamaran', sans-serif;
+  }
+
+  
+  .textinhoPonto{
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+
+  .textoPonto{
+    margin-top: 2vw;
+    text-align: center;
+    font-size: 2.5vw;
+  }
+
+  .pontosDiv{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .imgPonto{
+    width: 40vw;
+    border-radius: 1vw;;
+  }
+
+  .fotoPonto{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+  .imgClima{
+    width: 50vw;
+    border-radius: 1vw;
+    margin-top: 1.5vw;
+  }
+
+
+  
+
+  /*Vini*/
+  
+  h3{
+    font-family: 'Ephesis', cursive;
+  }
+ 
+
+/*lorenzo*/
+.chegarTitulo{
+  font-family: 'Ephesis', cursive;
+ 
+  z-index: 1;
+  
+  text-align: center;
+ 
+  font-size: 150%;
+}
+
+.imgAeroporto{
+  width: 70vw;
+  text-align: center;
+  margin-left: 15vw;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
+  border-radius: 1vw;
+}
+
+p{
+  font-family: 'Catamaran', sans-serif;
+  font-size: 120%;
+}
+
+.chegarTexto{
+  margin-inline: 15vw;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.chegarTitulo{
+
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.chegarTudo{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tudoContato{
+  text-align: center;
+ margin-top: 5vh;
+ margin-bottom: 70vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 700px) {
+    
+    .maconha{
+      display:none;
+    }
+
+    .hehe{
+      display:none;
+    }
+
+  }
+  @media (max-width: 700px) {
+  
+
+    .menuHeader{display:none;}
+    .maconha{opacity: 0;}
+    } 
+
+    
+  
+  @media (max-width: 700px) {
+  
+    .menuHeader {
+      display: none;
+    }
+  
+  @media (max-width: 700px) {
+  
+    .menuHeader {
+      display: none;
+    }
+    
+
+    
+    
+  }
